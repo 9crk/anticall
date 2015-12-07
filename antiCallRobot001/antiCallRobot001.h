@@ -9,7 +9,8 @@
 #endif
 
 #include "resource.h"		// 主符号
-
+#define WM_NC WM_USER+10 
+#define IDC_NC 1002 
 
 // CRobotApp: 
 // 有关此类的实现，请参阅 antiCallRobot001.cpp
@@ -27,6 +28,7 @@ public:
 // 实现
 
 	DECLARE_MESSAGE_MAP()
+
 };
 
 extern CRobotApp theApp;
