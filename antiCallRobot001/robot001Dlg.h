@@ -25,6 +25,7 @@ protected:
 
 	// 生成的消息映射函数
 	virtual BOOL OnInitDialog();
+	afx_msg LRESULT OnUserThreadend(WPARAM wParam, LPARAM lParam);
 	afx_msg void OnPaint();
 	afx_msg HCURSOR OnQueryDragIcon();
 	DECLARE_MESSAGE_MAP()
@@ -54,4 +55,9 @@ public:
 	afx_msg void OnBnClickedButton22();
 	afx_msg void OnBnClickedButton19();
 	afx_msg void OnBnClickedButton15();
+	afx_msg void OnBnClickedButton16();
+	afx_msg void OnBnClickedButton23();
+	afx_msg void OnBnClickedButton14();
+	afx_msg void OnBnClickedButton18();
+	afx_msg void OnBnClickedButton21();
 };

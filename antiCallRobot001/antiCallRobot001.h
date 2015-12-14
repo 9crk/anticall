@@ -28,7 +28,7 @@ public:
 // й╣ож
 
 	DECLARE_MESSAGE_MAP()
-
+	
 };
 
 extern CRobotApp theApp;
